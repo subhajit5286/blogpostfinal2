@@ -4,11 +4,9 @@
   "description": "Create blog using nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon index.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+   
+    
   },
   "author": "",
   "license": "ISC",
